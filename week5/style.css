@@ -5,29 +5,28 @@
     url("assets/w95fa.woff") format("woff");
   }
 body{
-    font-size: 32;
+    font-family: "w95fa";
+    font-size: 24;
     background-image: url(assets/chess.png);
+    background-attachment: fixed;
 }
 #start_menu{
     position: fixed;
     bottom: -754;
     z-index: -4;
     left: 0;
-    transition-duration: .5s;
 }
 #startbutton:active + #start_menu{
-    bottom: 12;
-    transition-duration: .5s;
+    bottom: 45;
 }
 #startbar{
     position: fixed;
     background-color: rgb(192, 192, 192);
     border-top-style: ridge;
-    padding: 9px;
     bottom: 0;
     left: 0;
     width: 100%;
-    border-width: thick;
+    border-width: 3.5
     z-index: 5;
 }
 #starticon{
@@ -35,20 +34,24 @@ body{
     margin: 0;
 }
 #startbutton{
-    font-size: 24;
+    float: left;
+    display:  inline-block;
+    font-size: 22;
     font-family: 'w95fa', arial;
     font-weight: bold;
     background-color: rgb(190, 190, 190);
     border-style:outset;
-    border-width: thick;
-    padding: 5px ;
+    border-width: 3.5px;
+    padding:  0 3 0 3;
+    margin: 4px;
 }
 #startbutton:active{
     border-style: inset;
 }
 #desktop{
+    position: fixed;
     display:flex;
-    width:auto;
+    width:30%;
     flex-direction: column;
     align-items:flex-start;
     justify-content: left;
@@ -57,7 +60,7 @@ body{
     gap: 15px;
 }
 .icon{
-    font-size: 32;
+    font-size: 20;
     font-family: "w95fa", arial;
     color:white;
     text-shadow: black 2px 2px 1px;
@@ -74,4 +77,68 @@ body{
     display: block;
     margin-left:auto;
     margin-right: auto;
+}
+#clock{
+    float: right;
+    font-size: 18;
+    margin-right: 5px;
+    margin-top: 5;
+    font-family: "w95fa";
+    padding: 5px;
+    border: inset 2px;
+}
+#content{
+    background-color: rgb(192, 192,192);
+    width: 70%;
+    height: auto;
+    position: relative;
+    top: 5;
+    left: 30%;
+    padding: 1;
+    border: outset 2px ;
+    margin-bottom: 80;
+}
+#heading{
+    background-image: linear-gradient(to right,rgb(0,0,128),rgb(128, 190, 230 ));
+    color: white;
+    position: relative;
+    font-size: 24;
+    padding: 6 4 6 6;
+    margin-top: 0;
+
+}
+#heading img{
+    float: right;
+    height: 26;
+    margin-top: -3;
+}
+#toolbar{
+    font-size: 20;
+    position: relative;
+    top: -6;
+    left: 4;
+}
+.ul{
+    text-decoration: underline;
+
+}
+#text{
+    font-family: monospace;
+    font-size: 18;
+    background-color: white;
+    border: inset;
+    margin: 0;
+    padding: 4;
+}
+#starticons{
+    display: inline-block;
+    float: left;
+    margin: 5 0 5 10;
+    padding: 4;
+    border: inset 2px;
+    border-width: 0 1 0 1;
+}
+#starticons img{
+    height: 22;
+    margin: 0 3 0 3;
 }
