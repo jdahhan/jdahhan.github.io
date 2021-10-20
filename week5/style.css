@@ -148,3 +148,6 @@ body{
     height: 21;
     margin: 0 5 0 5;
 }
+#text img{
+    width: 100%;
+}
