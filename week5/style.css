@@ -14,7 +14,7 @@ body{
     position: fixed;
     bottom: -754;
     z-index: -4;
-    left: 0;
+    left: -1;
 }
 #startbutton:active + #start_menu{
     bottom: 45;
@@ -59,6 +59,9 @@ body{
     padding: 10px;
     gap: 15px;
 }
+#desktop a{
+    text-decoration: none;
+}
 .icon{
     font-size: 20;
     font-family: "w95fa", arial;
@@ -68,6 +71,7 @@ body{
     padding: 10px;
     width: 75;
     height: auto;
+
 }
 .icon:active{
     border-width: 1px;
@@ -82,18 +86,19 @@ body{
     float: right;
     font-size: 18;
     margin-right: 5px;
-    margin-top: 5;
+    margin-top: 4;
     font-family: "w95fa";
     padding: 5px;
     border: inset 2px;
 }
 #content{
     background-color: rgb(192, 192,192);
-    width: 70%;
+    width: 60%;
     height: auto;
     position: relative;
     top: 5;
     left: 30%;
+    right: 10%;
     padding: 1;
     border: outset 2px ;
     margin-bottom: 80;
@@ -105,12 +110,13 @@ body{
     font-size: 24;
     padding: 6 4 6 6;
     margin-top: 0;
+    font-weight: 500;
 
 }
 #heading img{
     float: right;
     height: 26;
-    margin-top: -3;
+    margin-top: 0;
 }
 #toolbar{
     font-size: 20;
@@ -134,11 +140,11 @@ body{
     display: inline-block;
     float: left;
     margin: 5 0 5 10;
-    padding: 4;
+    padding: 5;
     border: inset 2px;
     border-width: 0 1 0 1;
 }
 #starticons img{
-    height: 22;
-    margin: 0 3 0 3;
+    height: 21;
+    margin: 0 5 0 5;
 }
