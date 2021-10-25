@@ -28,7 +28,7 @@ body{
     position: absolute;
     display: flex;
     justify-content: space-between;
-    top: 40vh;
+    top: 35vh;
 }
 .item{
     width: 250;
