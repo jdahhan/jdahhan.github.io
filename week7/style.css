@@ -2,19 +2,33 @@ body{
     text-align: center;
     font-family: Georgia;
 }
-body > p{
-    margin: 0 20vw;
+#grid{
+    margin-top:20;
+    margin-left: 19%;
+    margin-right: auto;
+    width: 70%;
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+    row-gap: 15%;
+    grid-template-rows: 50% 50%;
 }
-body > h1{
-    margin: 10vh 20vw 3vh 20vw;
+#grid > p{
+    grid-row: 2;
+    grid-column-start: 1;
+    grid-column-end: 4;
+}
+#grid > h1{
+    grid-column: 2;
+    grid-row: 1;
 }
 #overlaycontainer, #imagecontainer{
     width: 80%;
     left: 10%;
+    right: 10%;
     position: absolute;
     display: flex;
     justify-content: space-between;
-    top: 35vh;
+    top: 40vh;
 }
 .item{
     width: 250;
