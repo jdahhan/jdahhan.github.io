@@ -4,11 +4,11 @@ body{
 }
 #grid{
     margin-top:20;
-    margin-left: 19%;
+    margin-left: 15%;
     margin-right: auto;
     width: 70%;
     display: grid;
-    grid-template-columns: 30% 30% 30%;
+    grid-template-columns: 30% 40% 30%;
     row-gap: 15%;
     grid-template-rows: 50% 50%;
 }
