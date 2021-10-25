@@ -1,0 +1,53 @@
+body{
+    text-align: center;
+    font-family: Georgia;
+}
+body > p{
+    margin: 0 20vw;
+}
+body > h1{
+    margin: 10vh 20vw 3vh 20vw;
+}
+#overlaycontainer, #imagecontainer{
+    width: 80%;
+    left: 10%;
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    top: 35vh;
+}
+.item{
+    width: 250;
+    height: 250;
+    padding: 10px;
+    border-radius: 5%;
+}
+.overlay{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10 ;
+    width: 250;
+    height: 250;
+    border-radius: 5%;
+    opacity: 0;
+    transition-duration: .5s;
+    color:white;
+}
+.overlay:hover{
+    opacity: 1;
+    transition-duration: .5s;
+}
+.overlay > p{
+    padding: 2;
+    margin: auto;
+}
+#screentime, #screentext{
+    background-color: rgb(211, 109, 211);
+}
+#ring, #ringtext{
+    background-color: rgb(97, 133, 233);
+}
+#netflix, #netflixtext{
+    background-color: rgb(238, 104, 104);
+}
