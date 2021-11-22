@@ -1,0 +1,17 @@
+body{
+    background-color: rgb(186, 193, 201);
+    font-weight: bold;
+    font-family: sans-serif;
+    text-align: center;
+}
+.word{
+    font-size: xx-small;
+    position: absolute;
+    opacity: .50;
+    z-index: 0;
+}
+#content{
+    line-height: 95vh;
+    font-size: xx-large;
+    z-index: 1;
+}
