@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <script src = "https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.js" defer></script>
+    <script src="script.js" defer></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js" defer></script>
+    <title>Particles.js</title>
+</head>
+<body>
+    <div id="particles"></div>
+    <div class="content" id = "intro">Johnlouis Dahhan Week 12: Animate On Scroll and Particles.js</div>
+    <div class = "content" data-aos="fade-left">I experimented with 2 javascript libraries for this project. One was used to create this background and the other to create this scrolling animation.</div>
+    <div class = "content" data-aos="fade-right">Particles.js is a javascript library that allows for the creation of particle effects such as the ones in the background of this page. The actual javascript is incredibly light, as the configuration of particles is all done through a .json file that is loaded in the script.</div>
+    <div class = "content" data-aos="fade-left">The other library I used for this website is Animate On Scroll, which is incredibly easy to set up. All the javascript used was incorporating and initializing the library. The animation can be changed by simply changing an attribute of the div.</div>
+    <div class = "content" id = "end" data-aos="fade-right">These libraries are interesting because despite the very interesting functionality they allow, they are incredibly easy to use, if slightly difficult to customize.</div>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init({
+          duration:1000,
+        });
+    </script>
+</body>
+</html>
