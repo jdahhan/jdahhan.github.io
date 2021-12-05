@@ -7,50 +7,84 @@
     z-index: -1;
 }
 #content{
-    width: 65vw;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 10vh;
+    margin-top: 7vh;
 }
 h1{
     position: relative;
     text-align: center;
     color: white;
     font-family: monospace;
-    font-size: 62px;
+    font-size: 60px;
+    margin-bottom: 3vh;
 }
-#container1{
+#gridcont{
+    margin-left: auto;
+    margin-right: auto;
     position: relative;
     top: 0px;
     left: 0px;
-    justify-content: space-evenly;
+    gap: 3vh;
     background-color: rgba(230, 230, 250, 0);
-    flex-direction: row;
-    flex-wrap: wrap;
-    display: flex;
-    transform: translateX(0vw);
-    display: flex;
+    grid-template-columns: 10vw 10vw 10vw 10vw 10vw;
+    grid-template-rows: 30vh 30vh 30vh 30vh 30vh 30vh 30vh;
+    display: grid;
     transition-duration: 200ms;
-}
-#container2{
-    position: relative;
-    top: -100vh;
-    left: 0px;
-    background-color: rgba(230, 230, 250, .6);
-    font-family: monospace;
-    transition-duration: 200ms;
-    display: block;
-    transform: translateX(100vw);
-    transition-duration: 200ms;
-    border-radius: 20px;
-    padding: 20px;
-    font-size: x-large;
+    margin-bottom: 2vh;
 }
 .item{
-    margin: 23px;
-    height: 200px;
-    width: 150px;
+    height: 100%;
+    width: 100%;
+    color: black;
     background-color: white;
-    opacity: 1;
     border-radius: 5px;
+}
+ #outercontainer{
+    margin-left: auto;
+    margin-right: auto;
+    padding: 3vh;
+    width: 57vw;
+    height: 30vh;
+    overflow: hidden;
+ }
+.btn{
+    position: absolute;
+    top: 40vh;
+    left: 7vw;
+}
+#down{
+    top: 45vh;
+}
+#caption{
+    background-color: rgba(237, 217, 255, 0.6);
+    display: grid;
+    width: 55vw;
+    padding: 3vh;
+    margin-top: 4vh;
+    margin-left: auto;
+    margin-right:auto;
+    border-radius: 10px;
+    grid-template-columns: 13vw 13vw 26vw;
+    gap: 3vh;
+    grid-template-rows: 35vh auto;
+    margin-bottom: 4vh;
+}
+#text{
+    font-family: monospace;
+    font-size: large;
+    grid-row-start: 2;
+    grid-column-start: -4;
+    grid-column-end: 4;
+}
+img{
+    height:100%;
+    width: 100%;
+}
+#video{
+    grid-column-start: 3;
+}
+iframe{
+    width: 100%;
+    height: 100%;
 }

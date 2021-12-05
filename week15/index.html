@@ -7,44 +7,62 @@
     <title>Final Project</title>
     <link rel="stylesheet" href="style.css">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+    <script src="app.js" defer></script>
 </head>
 <body>
     <canvas id = "BG"></canvas>
     <div id="content">
         <h1>Final Project</h1>
-        <div id = "container1">
-            <div class="item"></div>
-            <div class="item"></div>
-            <div class="item"></div>
-            <div class="item"></div>
-            <div class="item"></div>
-            <div class="item"></div>
-            <div class="item"></div>
-            <div class="item"></div>
-            <div class="item"></div>
-            <div class="item"></div>
-            <div class="item"></div>
-            <div class="item"></div>
-            <div class="item"></div>
-            <div class="item"></div>
-            <div class="item"></div>
-            <div class="item"></div>
-            <div class="item"></div>
-            <div class="item"></div>
-            <div class="item"></div>
-            <div class="item"></div>
-            <div class="item"></div>
-            <div class="item"></div>
-            <div class="item"></div>
-            <div class="item"></div>
-            <div class="item"></div>
-            <div class="item"></div>
-        </div>
-        <div id = "container2">
-            CONTENT
-        </div>
+        <div id="outercontainer">
+            <button class = "btn" id = "up">up</button>
+                <button class = "btn" id = "down">down</button>
+                <div id = "gridcont">
+                    <div class="item" >21</div>
+                    <div class="item" >22</div>
+                    <div class="item" >23</div>
+                    <div class="item" >24</div>
+                    <div class="item" >25</div>
+                    <div class="item" >1</div>    
+                    <div class="item" >2</div>
+                    <div class="item" >3</div>
+                    <div class="item" >4</div>
+                    <div class="item" >5</div>
+                    <div class="item" >6</div>
+                    <div class="item" >7</div>
+                    <div class="item" >8</div>
+                    <div class="item" >9</div>
+                    <div class="item" >10</div>
+                    <div class="item" >11</div>
+                    <div class="item" >12</div>
+                    <div class="item" >13</div>
+                    <div class="item" >14</div>
+                    <div class="item" >15</div>
+                    <div class="item" >16</div>
+                    <div class="item" >17</div>
+                    <div class="item" >18</div>
+                    <div class="item" >19</div>
+                    <div class="item" >20</div>
+                    <div class="item" >21</div>
+                    <div class="item" >22</div>
+                    <div class="item" >23</div>
+                    <div class="item" >24</div>
+                    <div class="item" >25</div>
+                    <div class="item" >1</div>    
+                    <div class="item" >2</div>
+                    <div class="item" >3</div>
+                    <div class="item" >4</div>
+                    <div class="item" >5</div>
+                </div>
+            </div>
+            <div id="caption">
+                <div id = "portrait"><img src="assets/peach.png" alt="" srcset=""></div>
+                <div id = "portrait2"><img src="assets/armada.jpg" alt="" srcset=""></div>
+                <div id = "video"><iframe src="https://www.youtube.com/embed/leAU_KlXT5s" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+                <div id = "text">
+                    Peach is one of the most unique top tier characters in melee. Her slower floaty characteristics make it harder for her to play aggressively, but make her more suited for a bait and punish playstyle. The undisputed master of this is Swedish former pro Armada, who spend several years as the #1 player in the world before retiring.
+                </div> 
+            </div>
     </div>
-    <script src="app.js" type='module'></script>
-
+    <script src="three.js" type='module'></script>
 </body>
 </html>
