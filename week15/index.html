@@ -6,62 +6,72 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Final Project</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+
     <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
     <script src="app.js" defer></script>
 </head>
 <body>
     <canvas id = "BG"></canvas>
     <div id="content">
-        <h1>Final Project</h1>
+        <h1>Melee &ensp; Archive</h1>
         <div id="outercontainer">
-            <button class = "btn" id = "up">up</button>
-                <button class = "btn" id = "down">down</button>
-                <div id = "gridcont">
-                    <div class="item" >21</div>
-                    <div class="item" >22</div>
-                    <div class="item" >23</div>
-                    <div class="item" >24</div>
-                    <div class="item" >25</div>
-                    <div class="item" >1</div>    
-                    <div class="item" >2</div>
-                    <div class="item" >3</div>
-                    <div class="item" >4</div>
-                    <div class="item" >5</div>
-                    <div class="item" >6</div>
-                    <div class="item" >7</div>
-                    <div class="item" >8</div>
-                    <div class="item" >9</div>
-                    <div class="item" >10</div>
-                    <div class="item" >11</div>
-                    <div class="item" >12</div>
-                    <div class="item" >13</div>
-                    <div class="item" >14</div>
-                    <div class="item" >15</div>
-                    <div class="item" >16</div>
-                    <div class="item" >17</div>
-                    <div class="item" >18</div>
-                    <div class="item" >19</div>
-                    <div class="item" >20</div>
-                    <div class="item" >21</div>
-                    <div class="item" >22</div>
-                    <div class="item" >23</div>
-                    <div class="item" >24</div>
-                    <div class="item" >25</div>
-                    <div class="item" >1</div>    
-                    <div class="item" >2</div>
-                    <div class="item" >3</div>
-                    <div class="item" >4</div>
-                    <div class="item" >5</div>
+            <i class="fas fa-chevron-up fa-2x"id="up"></i>
+
+            <i class="fas fa-chevron-down fa-2x"id = "down"></i>
+
+            <div id = "gridcont">
+                    <div class="item 21" >21</div>
+                    <div class="item 22" >22</div>
+                    <div class="item 23" >23</div>
+                    <div class="item 24" >24</div>
+                    <div class="item 25" >25</div>
+                    <div class="item 1" >1<img src="assets/mario.png" alt="" srcset=""></div>    
+                    <div class="item 2" >2</div>
+                    <div class="item 3" >3</div>
+                    <div class="item 4" >4</div>
+                    <div class="item 5" >5</div>
+                    <div class="item 6" >6</div>
+                    <div class="item 7" >7</div>
+                    <div class="item 8" >8</div>
+                    <div class="item 9" >9</div>
+                    <div class="item 10" >10</div>
+                    <div class="item 11" >11</div>
+                    <div class="item 12" >12</div>
+                    <div class="item 13" >13</div>
+                    <div class="item 14" >14</div>
+                    <div class="item 15" >15</div>
+                    <div class="item 16" >16</div>
+                    <div class="item 17" >17</div>
+                    <div class="item 18" >18</div>
+                    <div class="item 19" >19</div>
+                    <div class="item 20" >20</div>
+                    <div class="item 21" >21</div>
+                    <div class="item 22" >22</div>
+                    <div class="item 23" >23</div>
+                    <div class="item 24" >24</div>
+                    <div class="item 25" >25</div>
+                    <div class="item 1" ><img src="assets/mario.png" alt="" srcset=""></div>    
+                    <div class="item 2" >2</div>
+                    <div class="item 3" >3</div>
+                    <div class="item 4" >4</div>
+                    <div class="item 5" >5</div>
                 </div>
-            </div>
+        </div>
+        <div id="captioncontainer">
+            <i class="fas fa-times-circle fa-lg" id="X"></i>
             <div id="caption">
                 <div id = "portrait"><img src="assets/peach.png" alt="" srcset=""></div>
                 <div id = "portrait2"><img src="assets/armada.jpg" alt="" srcset=""></div>
-                <div id = "video"><iframe src="https://www.youtube.com/embed/leAU_KlXT5s" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+                <div id = "video"><iframe src="https://www.youtube.com/embed/kdbPTl3tmgU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
                 <div id = "text">
-                    Peach is one of the most unique top tier characters in melee. Her slower floaty characteristics make it harder for her to play aggressively, but make her more suited for a bait and punish playstyle. The undisputed master of this is Swedish former pro Armada, who spend several years as the #1 player in the world before retiring.
+                    
                 </div> 
             </div>
+        </div>
+        <div id="desc">
+            Super Smash Bros. Melee for the Nintendo Gamecube is a 20 year old party game that has maintained a strong competitive scene from its launch to this very day. I personally have always loved this game for the memories its given me of playing in tournaments or on a couch with my friends. As such, I wanted to make a tribute to this game and its incredibly robust competitive scene. I found it very interesting to do the research for this project, as it felt like a trip down memory lane. 
+        </div>
     </div>
     <script src="three.js" type='module'></script>
 </body>

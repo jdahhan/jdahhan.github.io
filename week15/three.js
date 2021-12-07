@@ -2,8 +2,8 @@ var x = 0
 var y = 0
 
 document.addEventListener('mousemove', (event) => {
-    x = (event.clientX - window.innerWidth/2) / 1700
-    y = (event.clientY - window.innerHeight/2) / 1700
+    x = ((event.clientX - window.innerWidth/2) / window.innerWidth)/2
+    y = ((event.clientY - window.innerHeight/2) / window.innerHeight)/2
 });
 
 var heading = document.querySelector("h1")

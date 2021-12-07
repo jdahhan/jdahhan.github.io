@@ -1,0 +1,181 @@
+
+[
+    {  
+
+        "name": "mario",
+        "portrait":"<img src = 'assets/mario.png'></img>",
+        "desc": "Mario is obviously the most famous and some might say boring Nintendo character of all time, hailing from the Super Mario Bros. series. In melee, however, Mario is a bit more of a wild card. As a low/mid tier, Mario performs the best when he can get in quick and pull off a fancy combo. The best Mario in the world right now has to be ",
+        "color":"rgb(200,0,0)",
+        "player":"<img src = 'assets/rookie.png'></img>",
+        "vid":"<iframe width='560' height='315' src='https://www.youtube.com/embed/f-o34PJJODo' title='YouTube video player' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe>"
+    },{
+        "name" : "donkey kong",
+        "portrait" : "<img src = 'assets/donkeykong.png'></img>",
+        "desc" : "Donkey Kong is one of Nintendo's oldest characters, debuting in the arcade classic 'Donkey Kong'. In melee, Donkey Kong is a low tier who packs a hell of a punch, known for his great grab combos if he can break the opponent's defense. The best Donkey Kong in the world right now is Green Ranger, who has embarrassed numerous top players with such a mediocre character.",
+        "color" : "rgb(200,0,0)",
+        "player" : "<img src = 'assets/GreenRanger.png'></img>",
+        "vid" : "<iframe width='560' height='315' src='https://www.youtube.com/embed/kdbPTl3tmgU' title='YouTube video player' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe>"
+    },{
+        "name" : "link",
+        "portrait" : "<img src = 'assets/link.png'></img>",
+        "desc" : "Link is another of Nintendo's most iconic characters, as the main protagonist of the Legend of Zelda series. In melee, he is yet another lower tier character, whose primary success comes from using his projectiles and hard hitting attacks to keep enemies away. The best Link in the world currently is Ottowan player Saus.",
+        "color" : "rgb(200,0,0)",
+        "player" : "<img src = 'assets/saus.png'></img>",
+        "vid" : "<iframe width='560' height='315' src='https://www.youtube.com/embed/dqmv8T6Z2Uo' title='YouTube video player' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe>"
+    },{
+
+        "name" : "samus",
+        "portrait" : "<img src = 'assets/samus.png'></img>",
+        "desc" : "The bounty hunter Samus hails from the Super Metroid series, and is one of the best zoning characters in melee. Samus excels when creating space to pressure opponents with her powerful projectiles. The best solo Samus in the world is Michigan's Duck, with wins against several of the top 5 players in the world.",
+        "color" : "rgb(200,0,0)",
+        "player" : "<img src = 'assets/Duck.png'></img>",
+        "vid" : "<iframe width='560' height='315' src='https://www.youtube.com/embed/odprLTR00es' title='YouTube video player' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe>"
+    },{
+        "name" : "yoshi",
+        "portrait" : "<img src = 'assets/yoshi.png'></img>",
+        "desc" : "Yoshi the green dinosaur is definitely one of the cutest characters in Nintendo's history, but for much of melee's history had very underwhelming results. That was until Japanese player Amsa rose to prominence. Yoshi went from a low tier character to a mid-high tier one after Amsa began demonstrating what the character was capable of. Using character-specific and technically difficult techniques, Amsa has taken games off of the best players in melee's history, and consistently ranks top 10 in the world.",
+        "color" : "rgb(200,0,0)",
+        "player" : "<img src = 'assets/amsa.png'></img>",
+        "vid" : "<iframe width='560' height='315' src='https://www.youtube.com/embed/5NiQwaWxHxs' title='YouTube video player' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe>"
+    },{
+        "name" : "kirby",
+        "portrait" : "<img src = 'assets/kirby.png'></img>",
+        "desc" : "The adorable hero of Dreamland, Kirby, is the undisputed worst character in melee. With a terrible recovery and horrible offensive options, almost nobody bothers playing this character. That is, with the notable exception of Minnesotan player Triple R. Triple R has used Kirby's weaknesses in his favor, creating a name for himself by embarrassing several high level players by beating them with such a weak character.",
+        "color" : "rgb(200,0,0)",
+        "player" : "<img src = 'assets/tripler.jpg'></img>",
+        "vid" : "<iframe width='560' height='315' src='https://www.youtube.com/embed/NhRGt-5d8YA' title='YouTube video player' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe>"
+    },{
+        "name" : "fox",
+        "portrait" : "<img src = 'assets/fox.png'></img>",
+        "desc" : "Fox, the hero of Nintendo's action-adventure space epic Star Fox, is the undisputed best character in melee history. Despite his superior speed, attack, and defensive options, he is still technically demanding enough that only a few players can make the most of his toolkit. THe best Fox in the world currently is Swedish player Leffen, who made his mark as the 'god slayer' by defeating the top 5 players in the world. He is something of a heel in the community, known for trash talking other players, but he has proven that he can play to back his trash talk.",
+        "color" : "rgb(200,0,0)",
+        "player" : "<img src = 'assets/leffen.png'></img>",
+        "vid" : "<iframe width='560' height='315' src='https://www.youtube.com/embed/RvkFURYhmPc?start=24' title='YouTube video player' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe>"
+    },{
+        "name" : "pikachu",
+        "portrait" : "<img src = 'assets/pika.png'></img>",
+        "desc" : "Pikachu, of Pokemon fame, is one of several characters who spent a lot of time at the bottom of the tier lists. Its great recovery and fast movement was coupled by an unconventional moveset that could only be mastered by one player: Axe. Originally of meme fame as 'Walgreens Drake' for his resemblance to Toronto rapper, the Arizona player singlehandedly placed Pikachu at the top of the tier lists. Axe is the highest ranked Pikachu of all time, at #4 in the 2019 top 100, with wins on the best players in the game's history.",
+        "color" : "rgb(200,0,0)",
+        "player" : "<img src = 'assets/axe.png'></img>",
+        "vid" : "<iframe width='560' height='315' src='https://www.youtube.com/embed/bpVGq6ZZ8g8' title='YouTube video player' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe>"
+    },{
+        "name" : "luigi",
+        "portrait" : "<img src = 'assets/luigi.png'></img>",
+        "desc" : "Luigi, maybe the second most well known Nintendo character, is known in melee for his slippery movement and floatiness. This lends him towards a very bizarre playstyle. The best Luigi in the game is Pittsburgh player Abate, who spent several years in the top 100, with wins off of many top players.",
+        "color" : "rgb(200,0,0)",
+        "player" : "<img src = 'assets/abate.png'></img>",
+        "vid" : "<iframe width='560' height='315' src='https://www.youtube.com/embed/kKCjaMLlmVQ' title='YouTube video player' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe>"
+    },{
+        "name" : "ness",
+        "portrait" : "<img src = 'assets/ness.png'></img>",
+        "desc" : "Ness, the sole EarthBound representative in melee, is a bit of an oddball character. His slow movement, poor recovery, and small range make him incredibly difficult to play, but his bizarre character specific techniques and glitches can make him a very satisfying character to use. Being such an oddball character, it makes sense that his best representative would be an oddball like Jim Jam Flim Flam, a professional player from Denver best known for his appearance in a satirical melee documentary.",
+        "color" : "rgb(200,0,0)",
+        "player" : "<img src = 'assets/jjff.png'></img>",
+        "vid" : "<iframe width='560' height='315' src='https://www.youtube.com/embed/vwtN3KU3ry8?start=16' title='YouTube video player' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe>"
+    },{
+        "name" : "falcon",
+        "portrait" : "<img src = 'assets/falcon.png'></img>",
+        "desc" : "Captain Falcon, the F-Zero representative and space bounty hunter is a character with a ton of personality. His high speed and damage while being an easy character to combo make him the epitome of a glass cannon. Despite this, he is an incredible character, with players like Florida's Wizzrobe landing in the top 10 and taking sets off the best in the world with him.",
+        "color" : "rgb(200,0,0)",
+        "player" : "<img src = 'assets/wizzrobe.png'></img>",
+        "vid" : "<iframe width='560' height='315' src='https://www.youtube.com/embed/H4pfVI1rrjc' title='YouTube video player' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe>"
+    },{
+        "name" : "jigglypuff",
+        "portrait" : "<img src = 'assets/puff.png'></img>",
+        "desc" : "The balloon Pokemon Jigglypuff is a very difficult character to play against. Her floatiness and excellent recovery coupled with her strong attacks make her hard to combo and easy to get hit by. Despite this, only one player has acheived greatness with her. Hungrybox is a player who has spent most of the past 4 years as #1 in the world, and is one of only two Jigglypuff players in the top 100. Something of a heel, people often root against him due to his choice of character and campy playstyle, but he is undoubtedly one of the greatest of all time.",
+        "color" : "rgb(200,0,0)",
+        "player" : "<img src = 'assets/hbox.png'></img>",
+        "vid" : "<iframe width='560' height='315' src='https://www.youtube.com/embed/6jcOQAcdREU' title='YouTube video player' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe>"
+    },{
+        "name" : "peach",
+        "portrait" : "<img src = 'assets/peach.png'></img>",
+        "desc" : "Peach is one of the most unique top tier characters in melee. Her slower floaty characteristics make it harder for her to play aggressively, but make her more suited for a bait and punish playstyle. The undisputed master of this is Swedish former pro Armada, who spend several years as the #1 player in the world before retiring.",
+        "color" : "rgb(200,0,0)",
+        "player" : "<img src = 'assets/armada.jpg'></img>",
+        "vid" : "<iframe width='560' height='315' src='https://www.youtube.com/embed/leAU_KlXT5s&' title='YouTube video player' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe>"
+    },{
+        "name" : "bowser",
+        "portrait" : "<img src = 'assets/bowser.png'></img>",
+        "desc" : "Mario's worst nemesis Bowser, despite being very menacing in the Mario games is a bit of a joke in melee. Incredibly slow and easy to combo, he is incredibly difficult to play as. Despite being one of the worst characters in the world, some have done well with him. New York City native and long time player DJ Nintendo, despite primarily playing Fox, has taken games off of impressive players with Bowser, and is likely the best Bowser in the world.",
+        "color" : "rgb(200,0,0)",
+        "player" : "<img src = 'assets/djn.jpg'></img>",
+        "vid" : "<iframe width='560' height='315' src='https://www.youtube.com/embed/-TVkjGNjvZM' title='YouTube video player' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe>"
+    },{
+        "name" : "ice climbers",
+        "portrait" : "<img src = 'assets/ics.png'></img>",
+        "desc" : "The Ice Climbers, from the titular game 'Ice Climbers', have an interesting history in melee. Known primarily for their notoriously oppressive grab combos, one of which was banned for being an infinite, they are simultaneously widely hated and yet only mid tier. Despite this, players like Virginia's Chudat have proven that they can win consistently, even with only one Ice Climber. Like his character, Chudat is notorious for being annoying to play against, and is considered something of a troll. However, he is still a widely respected top player, ranking #23 in 2019, having played since 2003.",
+        "color" : "rgb(200,0,0)",
+        "player" : "<img src = 'assets/chudat.png'></img>",
+        "vid" : "<iframe width='560' height='315' src='https://www.youtube.com/embed/DMll585hIko' title='YouTube video player' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe>"
+    },{
+        "name" : "sheik",
+        "portrait" : "<img src = 'assets/sheik.png'></img>",
+        "desc" : "Sheik, Zelda's fighter alter ego in the Legend of Zelda series, is a top tier character who has amassed very high ranked wins in melee. With her speed, good grab combos, and powerful aerial moves, players like Florida's Plup have made names for themselves with Sheik. One of the only players to consistently take sets off of the top players in the world, Plup is currently ranked #8 in the world, and seems to be the best Sheik in the world.",
+        "color" : "rgb(200,0,0)",
+        "player" : "<img src = 'assets/plup.png'></img>",
+        "vid" : "<iframe width='560' height='315' src='https://www.youtube.com/embed/SPnDqPMFAC0' title='YouTube video player' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe>"
+    },{
+        "name" : "doc",
+        "portrait" : "<img src = 'assets/doc.png'></img>",
+        "desc" : "Doctor Mario, the version of Mario who appears in the titular SNES game Dr. Mario is hardly a fascinating character from a lore perspective. However, in melee, he is certainly distinct. A slower but stronger version of Mario that is considered somewhat better, Dr. Mario players have acheived great success in the past. Northern California's Shroomed, widely considered the best Dr. Mario player in the world, is known for his high ranking victories, crazy combos, and exceptional teeth.",
+        "color" : "rgb(200,0,0)",
+        "player" : "<img src = 'assets/shroomed.jpg'></img>",
+        "vid" : "<iframe width='560' height='315' src='https://www.youtube.com/embed/t1Fu8P-OpCY' title='YouTube video player' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe>"
+    },{
+        "name" : "pichu",
+        "portrait" : "<img src = 'assets/pichu.png'></img>",
+        "desc" : "Pikachu's pre-evolution Pichu, is one of the cuter characters in Pokemon and one of the worst fighters in melee. Her floaty weight, self damaging attacks, and poor range make her an objectively worse version of Pikachu. Thus, it would take an amazing player to win with him. That's why the best Pichu player in the world is one of the best players in the world, Florida's Mew2King. Mew2King rose to fame becoming the best Marth and Sheik player in the world, spending years at the #1 spot and being in contention for greatest melee player of all time. But that's not important right now. His Pichu is.",
+        "color" : "rgb(200,0,0)",
+        "player" : "<img src = 'assets/m2k.png'></img>",
+        "vid" : "<iframe width='560' height='315' src='https://www.youtube.com/embed/FEcQqOWWdbQ' title='YouTube video player' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe>"
+    },{
+        "name" : "falco",
+        "portrait" : "<img src = 'assets/falco.png'></img>",
+        "desc" : "Falco, Fox's sidekick in Star Fox, might seem like a clone of Fox, but he is much more. His oppressive lasers and vertical combo tools make him potentially one of the most stylish characters in the game. As such, he is played by the most stylish player in the history of the game, Mang0. Widely considered the #1 of all time, Mang0 has been in the top 5 since his debut, and that is in no small part due to his absolutely incredibly Falco gameplay.",
+        "color" : "rgb(200,0,0)",
+        "player" : "<img src = 'assets/mang0.png'></img>",
+        "vid" : "<iframe width='560' height='315' src='https://www.youtube.com/embed/qLZK-JXxqyk' title='YouTube video player' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe>"
+    },{
+        "name" : "Marth",
+        "portrait" : "<img src = 'assets/marth.png'></img>",
+        "desc" : "Marth was a risky addition to melee due to his debut game, Fire Emblem, not having been released to Western audiences. However, he quickly became a fan favorite due to his crazy fast swordplay and incredibly grab combos. Marth is a difficult character to play due to his specific spacing. Despite this, Virginia's Zain has become one of the (currently) top 3 players in the world with his Marth. A relative newcomer to the game, having only been playing since 2014, Zain has rapidly climbed the charts and staked his claim at the top.",
+        "color" : "rgb(200,0,0)",
+        "player" : "<img src = 'assets/zain.png'></img>",
+        "vid" : "<iframe width='560' height='315' src='https://www.youtube.com/embed/m0LCblTwVq4' title='YouTube video player' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe>"
+    },{
+        "name" : "young link",
+        "portrait" : "<img src = 'assets/ylink.png'></img>",
+        "desc" : "Young Link, from the Nintendo 64 Legend of Zelda games, is considered the slightly better version of Link. He is faster than Link with better projectiles. However, despite this he has little representation at the top level. That is, except for Arizona's Axe. Despite being a Pikachu main, Axe is still a top player with amazing fundamentals, and has shown his skill by beating many top players with his Young Link.",
+        "color" : "rgb(200,0,0)",
+        "player" : "<img src = 'assets/axe.png'></img>",
+        "vid" : "<iframe width='560' height='315' src='https://www.youtube.com/embed/PfE6oaMSCvI' title='YouTube video player' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe>"
+    },{
+        "name" : "ganon",
+        "portrait" : "<img src = 'assets/ganon.png'></img>",
+        "desc" : "Ganondorf, the villain from the Legend of Zelda series, is a very intense character. He is no different in melee, being a powerful hard hitter with an abundance of style. His slow speed makes him a pretty low tier character, but some players have still acheived success with him. The best known example is Canada's own Kage the Warrior. Kage is the only Ganondorf in the top 100, and is the only Ganondorf to ever take a game off of retired best in the world Armada. An intense personality himself, Kage might as well be an extension of Ganondorf.",
+        "color" : "rgb(200,0,0)",
+        "player" : "<img src = 'assets/kage.png'></img>",
+        "vid" : "<iframe width='560' height='315' src='https://www.youtube.com/embed/YLX5EDi7shc' title='YouTube video player' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe>"
+    },{
+        "name" : "mewtwo",
+        "portrait" : "<img src = 'assets/m2.png'></img>",
+        "desc" : "Mewtwo, one of the most iconic characters in Pokemon, has an interesting place in melee. Seen as a relatively low tier character, a small number of players have still been able to make great use of his unusual techniques and character peculiarities. One of these is Arizona's Taj, a former top player who is famous for being the best solo Mewtwo in the world. ",
+        "color" : "rgb(200,0,0)",
+        "player" : "<img src = 'assets/taj.png'></img>",
+        "vid" : "<iframe width='560' height='315' src='https://www.youtube.com/embed/zQ2_FE05rfQ' title='YouTube video player' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe>"
+    },{
+        "name" : "roy",
+        "portrait" : "<img src = 'assets/roy.png'></img>",
+        "desc" : "Roy, from the Fire Emblem series, is an interesting character in melee. Despite his strong attacks and similarity to Marth, his slow moves and glitchy hitboxes make him a very low tier character. Despite this, some players are committed to making progress with him. Texas player Sethlon is one of these players. Considered the best solo Roy in the world, Sethlon has acheived great results with Roy.",
+        "color" : "rgb(200,0,0)",
+        "player" : "<img src = 'assets/sethlon.jpg'></img>",
+        "vid" : "<iframe width='560' height='315' src='https://www.youtube.com/embed/pAvUqZqeEIQ' title='YouTube video player' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe>"
+    },{
+        "name" : "g&w",
+        "portrait" : "<img src = 'assets/g&w.png'></img>",
+        "desc" : "Mr. Game & Watch from Nintendo's Game & Watch console is an unusual entry in melee's roster. Not only do his completely flat model and janky animations set him apart, he is also a very light and slow character, which places him low in most people's tier lists. However, one man's trash is another man's treasure. New Jersey's Qerb has risen the leaderboards on the East Coast using exclusively Game & Watch.",
+        "color" : "rgb(200,0,0)",
+        "player" : "<img src = 'assets/qerb.jpg'></img>",
+        "vid" : "<iframe width='560' height='315' src='https://www.youtube.com/embed/dqwVlO1wt6w' title='YouTube video player' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe>"
+    }
+]

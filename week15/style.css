@@ -1,3 +1,15 @@
+@font-face {
+    font-family: "w95fa";
+    src: url("assets/W95FA.otf") format("opentype"),
+    url("assets/w95fa.woff2") format("woff2"),
+    url("assets/w95fa.woff") format("woff");
+    font-family: "space";
+    src: url("assets/SlightRegular.woff") format("woff")
+  }
+body{
+    font-family: w95fa;
+    font-size: large;
+}
 #BG{
     position:fixed;
     top: 0;
@@ -9,15 +21,23 @@
 #content{
     margin-left: auto;
     margin-right: auto;
-    margin-top: 7vh;
+    margin-left: 0px;
+    margin-top: 10vh;
+    width: 98vw;
 }
 h1{
+    font-family: "space";
     position: relative;
     text-align: center;
     color: white;
-    font-family: monospace;
     font-size: 60px;
-    margin-bottom: 3vh;
+    margin-bottom: 6vh;
+}
+#portrait{
+    object-fit: cover;
+    margin-top: 5vh;
+    width: 9vw;
+    height: 27vh;
 }
 #gridcont{
     margin-left: auto;
@@ -37,7 +57,7 @@ h1{
     height: 100%;
     width: 100%;
     color: black;
-    background-color: white;
+    background-color: rgba(255,255,255,0.2);
     border-radius: 5px;
 }
  #outercontainer{
@@ -45,33 +65,36 @@ h1{
     margin-right: auto;
     padding: 3vh;
     width: 57vw;
-    height: 30vh;
+    height: 28vh;
     overflow: hidden;
- }
-.btn{
+}
+i{
+    color: rgba(145, 144, 151, 0.6);
+
+}
+#up{
     position: absolute;
-    top: 40vh;
-    left: 7vw;
+    top: 34vh;
+    left: 17vw;
 }
 #down{
-    top: 45vh;
+    
+    position: absolute;
+    left: 17vw;
+    top: 44vh;
 }
 #caption{
     background-color: rgba(237, 217, 255, 0.6);
     display: grid;
     width: 55vw;
-    padding: 3vh;
-    margin-top: 4vh;
-    margin-left: auto;
-    margin-right:auto;
+    padding: 2vh;
     border-radius: 10px;
-    grid-template-columns: 13vw 13vw 26vw;
+    grid-template-columns: 9vw 35vh 26vw;
     gap: 3vh;
     grid-template-rows: 35vh auto;
     margin-bottom: 4vh;
 }
 #text{
-    font-family: monospace;
     font-size: large;
     grid-row-start: 2;
     grid-column-start: -4;
@@ -87,4 +110,41 @@ img{
 iframe{
     width: 100%;
     height: 100%;
+}
+#X{
+    color: rgba(71, 70, 73, 0.6);
+    position: absolute;
+    top: 2vh;
+    left: 2vh;
+    height: 2vw;
+    width: 2vw;
+}
+#captioncontainer{
+    transition: opacity 0.2s ease-in-out;
+    opacity: 0;
+    padding: 0px;
+    top: 19vh;
+    left: -200vw;
+    height: fit-content;
+    position: absolute;
+    width: fit-content;
+}
+#desc{
+    background-color: rgba(237, 217, 255, 0.6);
+    width: 57vw;
+    padding: 2vh;
+    margin-top: 18vh;
+    margin-left: auto;
+    margin-right:auto;
+    border-radius: 10px;
+    margin-bottom: 4vh;
+}
+#portrait2 img{
+    border-radius: 100%;
+}
+#portrait img{
+    border-radius: 5%;
+}
+.item img{
+    border-radius: 5px;
 }
