@@ -1,6 +1,7 @@
 var request = new XMLHttpRequest();
 request.open("GET","characters.json", false);
 request.send(null);
+console.log(request.responseText);
 var jsonData = JSON.parse(request.responseText);
 
 let counter = 1
