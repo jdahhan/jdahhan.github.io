@@ -89,7 +89,7 @@ i{
     width: 55vw;
     padding: 2vh;
     border-radius: 10px;
-    grid-template-columns: 9vw 35vh 20vw;
+    grid-template-columns: 9vw 35vh 26vw;
     gap: 3vh;
     grid-template-rows: 35vh auto;
     margin-bottom: 4vh;
@@ -108,8 +108,9 @@ img{
     grid-column-start: 3;
 }
 iframe{
-    width: 100%;
+    width: 90%;
     height: 100%;
+    border-radius: 5px;
 }
 #X{
     color: rgba(71, 70, 73, 0.6);
@@ -147,8 +148,4 @@ iframe{
 }
 .item img{
     border-radius: 5px;
-}
-iframe{
-    border-radius: 5px;
-    float:right;
 }
