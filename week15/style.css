@@ -22,7 +22,7 @@ body{
     margin-left: auto;
     margin-right: auto;
     margin-left: 0px;
-    margin-top: 10vh;
+    margin-top: 13vh;
     width: 98vw;
 }
 h1{
@@ -31,7 +31,7 @@ h1{
     text-align: center;
     color: white;
     font-size: 60px;
-    margin-bottom: 6vh;
+    margin-bottom: 10vh;
 }
 #portrait{
     object-fit: cover;
@@ -74,14 +74,14 @@ i{
 }
 #up{
     position: absolute;
-    top: 34vh;
+    top: 36vh;
     left: 17vw;
 }
 #down{
     
     position: absolute;
     left: 17vw;
-    top: 44vh;
+    top: 46vh;
 }
 #caption{
     background-color: rgba(237, 217, 255, 0.6);
@@ -92,7 +92,7 @@ i{
     grid-template-columns: 9vw 17vw 26vw;
     gap: 3vh;
     grid-template-rows: 17vw auto;
-    margin-bottom: 4vh;
+    margin-bottom: 0vh;
 }
 #text{
     font-size: large;
@@ -123,7 +123,7 @@ iframe{
     transition: opacity 0.2s ease-in-out;
     opacity: 0;
     padding: 0px;
-    top: 19vh;
+    top: 21vh;
     left: -200vw;
     height: fit-content;
     position: absolute;
@@ -133,7 +133,7 @@ iframe{
     background-color: rgba(237, 217, 255, 0.6);
     width: 57vw;
     padding: 2vh;
-    margin-top: 18vh;
+    margin-top: 14vh;
     margin-left: auto;
     margin-right:auto;
     border-radius: 10px;
