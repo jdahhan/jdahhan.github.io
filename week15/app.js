@@ -1,3 +1,4 @@
+console.log("HELLO")
 var request = new XMLHttpRequest();
 request.open("GET","characters.json", false);
 request.send(null);
