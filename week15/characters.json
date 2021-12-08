@@ -12,7 +12,7 @@
         "portrait" : "<img src = 'assets/donkeykong.png'></img>",
         "desc" : "Donkey Kong is one of Nintendo's oldest characters, debuting in the arcade classic 'Donkey Kong'. In melee, Donkey Kong is a low tier who packs a hell of a punch, known for his great grab combos if he can break the opponent's defense. The best Donkey Kong in the world right now is Green Ranger, who has embarrassed numerous top players with such a mediocre character.",
         "color" : "rgb(200,0,0)",
-        "player" : "<img src = 'assets/GreenRanger.png'></img>",
+        "player" : "<img src = 'assets/Greenranger.png'></img>",
         "vid" : "<iframe width='560' height='315' src='https://www.youtube.com/embed/kdbPTl3tmgU' title='YouTube video player' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe>"
     },{
         "name" : "link",
