@@ -89,9 +89,9 @@ i{
     width: 55vw;
     padding: 2vh;
     border-radius: 10px;
-    grid-template-columns: 9vw 35vh 26vw;
+    grid-template-columns: 9vw 17vw 26vw;
     gap: 3vh;
-    grid-template-rows: 35vh auto;
+    grid-template-rows: 17vw auto;
     margin-bottom: 4vh;
 }
 #text{
@@ -108,9 +108,8 @@ img{
     grid-column-start: 3;
 }
 iframe{
-    width: 90%;
+    width: 100%;
     height: 100%;
-    border-radius: 5px;
 }
 #X{
     color: rgba(71, 70, 73, 0.6);
