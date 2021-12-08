@@ -89,7 +89,7 @@ i{
     width: 55vw;
     padding: 2vh;
     border-radius: 10px;
-    grid-template-columns: 9vw 35vh 26vw;
+    grid-template-columns: 9vw 35vh 25vw;
     gap: 3vh;
     grid-template-rows: 35vh auto;
     margin-bottom: 4vh;
