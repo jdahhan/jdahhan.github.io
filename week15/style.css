@@ -78,14 +78,13 @@ i:hover{
 }
 #up{
     position: absolute;
-    top: 36vh;
+    top: 40vh;
     left: 17vw;
 }
 #down{
-    
     position: absolute;
     left: 17vw;
-    top: 46vh;
+    top: 53vh;
 }
 #caption{
     background-color: rgba(237, 217, 255, 0.6);
