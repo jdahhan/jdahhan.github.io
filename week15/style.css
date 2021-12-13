@@ -79,11 +79,11 @@ i:hover{
 #up{
     position: absolute;
     top: 40vh;
-    left: 17vw;
+    left: 16vw;
 }
 #down{
     position: absolute;
-    left: 17vw;
+    left: 16vw;
     top: 53vh;
 }
 #caption{
