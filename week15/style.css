@@ -59,6 +59,10 @@ h1{
     color: black;
     background-color: rgba(255,255,255,0.2);
     border-radius: 5px;
+    transition-duration: .2s;
+}
+.item:hover{
+    background-color: rgba(255,255,255,0.37);    
 }
  #outercontainer{
     margin-left: auto;
